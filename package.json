@@ -1,0 +1,19 @@
+{
+  "name": "scrolloff",
+  "main": "./lib/scrolloff",
+  "version": "0.0.0",
+  "description": "Scroll offset (vim-like scrolloff) for Atom.",
+  "keywords": [
+      "scrolloff",
+      "scroll",
+      "scroll offset",
+      "scroll margin"
+  ],
+  "repository": "https://github.com/hypnoglow/atom-scrolloff",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
