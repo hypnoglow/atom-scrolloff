@@ -5,5 +5,5 @@ module.exports = Scrolloff =
 
   activate: (state) ->
     atom.workspace.observeTextEditors (editor) ->
-      editor.setVerticalScrollMargin atom.config.get("scrolloff")["Vertical margin"]
-      editor.setHorizontalScrollMargin atom.config.get("scrolloff")["Horizontal margin"]
+      editor.setVerticalScrollMargin atom.config.get("scrolloff")["verticalMargin"]
+      editor.setHorizontalScrollMargin atom.config.get("scrolloff")["vorizontalMargin"]

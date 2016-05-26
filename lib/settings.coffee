@@ -2,9 +2,9 @@
 
 module.exports =
   config:
-    "Vertical margin":
+    verticalMargin:
       type: 'integer'
       default: 2
-    "Horizontal margin":
+    vorizontalMargin:
       type: 'integer'
       default: 6
