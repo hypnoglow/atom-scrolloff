@@ -1,7 +1,7 @@
 {
   "name": "scrolloff",
   "main": "./lib/scrolloff",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scroll offset (vim-like scrolloff) for Atom.",
   "keywords": [
     "scrolloff",
