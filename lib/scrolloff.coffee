@@ -19,5 +19,5 @@ module.exports = Scrolloff =
   subscribeToWorkspace: ->
     @workspaceSubscription = atom.workspace.observeTextEditors (editor) ->
       editor.setVerticalScrollMargin atom.config.get("scrolloff")["verticalMargin"]
-      editor.setHorizontalScrollMargin atom.config.get("scrolloff")["vorizontalMargin"]
+      editor.setHorizontalScrollMargin atom.config.get("scrolloff")["horizontalMargin"]
     @subscriptions.add @workspaceSubscription
