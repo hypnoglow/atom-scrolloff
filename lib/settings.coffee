@@ -5,6 +5,6 @@ module.exports =
     verticalMargin:
       type: 'integer'
       default: 2
-    vorizontalMargin:
+    horizontalMargin:
       type: 'integer'
       default: 6
